@@ -4,88 +4,133 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Eman Elmahi</title>
-  <!-- Google Font -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-
-  <!-- Animate.css -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-  <style>
-    body {
-      font-family: 'Open Sans', sans-serif;
-      margin: 100px;
-      padding: 0;
-      background-color: #20063B;
-      color: #D6D6D6;
-    }
-
-    header {
-      background-image: url('path/to/your/image.jpg');
-      background-size: cover;
-      background-position: center;
-      padding: 50px;
-      text-align: center;
-      color: #D6D6D6;
-    }
-
-    header h1, header p {
-      margin: 0;
-      animation: animate__animated animate__fadeInDown;
-    }
-
-    nav a {
-      color: #D6D6D6;
-      text-decoration: none;
-      padding: 10px 2px;
-      margin: 150px;
-      border-radius: 5px;
-      text-align: right;
-    }
-
-    .msgbutton{
-      border-radius: 2px;
-    }
-    footer {
-      background-color: #7E8287;
-      /* padding: 10px; */
-      text-align: center;
-      color: #2C2B30;
-    }
-    .a{
-      color:white;
-    }
-  </style>
+  <link rel="stylesheet" href="index.css">
+  <script src="script.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <nav>
-    <a href="#about"><i class="fas fa-user"></i> About</a>
-    <a href="#projects"><i class="fas fa-code"></i> Projects</a>
-    <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
-  </nav>
-    <h1>Hi! I'm Eman Elmahi</h1>
-    <p> Currently located in Winnipeg, Manitoba. I am passionate about creating innovative software that helps improve peoples lives. </p>
-    <a href="#contact"> Send me a message!<i class="fas fa-envelope"></i> </a>
+  <div class="header">
+    <h1 class="playfair-display-text">Eman Elmahi</h1>
+    <div class="contact-info">
+      <h3 class="playfair-display-text"><i class="fa fa-phone" style="font-size:20px;color:#716050"></i> (431) 335-8571</h3>
+      <h3 class="playfair-display-text"><i class="fa fa-envelope" style="font-size:15px;color:#716050"></i>eman.elmahi@hotmail.com</h3>
+      <h3 class="playfair-display-text"><i class="fa fa-github" style="font-size:25px;color:#716050"></i><a href="https://github.com/elmahie"> https://github.com/elmahie</a></h3>
+   </div>
+  </div>
+  <p class="space"></p>
+  <div class="content-container">
+    <p class="space"></p>
+    
+    <p class="space"></p>
+    <h2 class="playfair-display-text">About Me</h2>
+    <p>
+     Hi! I am currently a fourth-year Computer Science Co-Op Student at the University of Manitoba. Here are some technologies I have been working with: <br>
+     <div class="row">
+      <div class="column">
+    <h3> ✦ Java <br>✦ Python</h3>
+  </div>
+      <div class="column">
+      <h3>✦ JavaScript <br> ✦ HTML <br> ✦ CSS</h3> 
+    </div>
+  </div>
+     Outside of work, I love all things creative including crochet and ceramic art.  </p>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p></p>
+     <h2 class="playfair-display-text">Projects</h2>
+     <div>
+      <!-- Slideshow container -->
+<div class="slideshow-container">
 
-  </section>
-  <section id="projects">
-    <h2>Projects</h2>
-    <p>Expense Tracker</p>
-    <a href = "https://elmahie.github.io/" target = "_blank">View Project</a>
-  </section>
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="images/expenseweb.png" style="width:100%">
+    <div class="text"> <br><b>Expense Tracker</b><br> A web application for expense tracking <br> <b>HTML, CSS, JavaScript </b><br><a href ="https://github.com/elmahie/expense" class="fa fa-github" style="font-size:25px;"> </a><a href="https://elmahie.github.io/expense/" class="fa fa-external-link" style="font-size:20px;"> </a></div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="images/expenseweb.png" style="width:100%">
+    <div class="text">Caption Text</div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="images/expenseweb.png" style="width:100%">
+    <div class="text">Caption Text</div>
+  </div>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: eman.elmahi@hotmail.com<br>
-  </section>
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1);playAudio('button.mp4')" >&#10094;</a>
+  <a class="next" onclick="plusSlides(1);playAudio('button.mp4')">&#10095;</a>
+</div>
+<br>
 
-    <p>&copy; 2023 Eman Elmahi. All rights reserved.</p>
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+     </div>
 
+    <p class="space"></p>
+    <h2 class="playfair-display-text">Work Experience</h2>
+    <div class="work-experience">
+      <h3 class="playfair-display-text"></h3>
+      <ul>
+        <li class="playfair-display-text">  &emsp;July. 2024 – August. 2024</li>
+        &emsp; Coding Camp Counselor <br>
+        &emsp; Code Cobras <br>
+        </ul>
+      <ul>
+        <li class="playfair-display-text">  &emsp;Sept. 2022 – June. 2024</li>
+        &emsp; Cashier <br>
+        &emsp; Canadian Tire <br>
+        &emsp;&emsp;Create and print retail signs ordered by staff <br>
+        &emsp;&emsp;Maintain order of displays and accurately enter orders into the POS system  <br>
+        &emsp;&emsp;Train new cashiers by providing them with the requisite preparation and teaching  <br>
+      </ul>
+
+    </div>
+    <p class="space"></p>
+    <h2 class="playfair-display-text">Education</h2>
+    <div class="education">
+      <ul>
+        <li class="playfair-display-text">  &emsp;Sept. 2021 – Now</li>
+        &emsp;University of Manitoba Winnipeg, MB <br>
+        &emsp; B.Sc in Computer Science  <br><br>
+        <li class="playfair-display-text">  &emsp;Sept. 2017 - June. 2021 </li>
+       &emsp; J.H Bruns Collegiate Winnipeg, MB <br>
+       &emsp; Honour Roll with Distinction in Grades 9 - 11 <br>
+        &emsp;  Hogg Centennial Entrance Scholarship<br> 
+      </ul>
+    </div>
+
+    <p class="space"></p>
+    <h2 class="playfair-display-text">Community Involvement</h2>
+    <div class="community-involvement">
+      <h3 class="playfair-display-text">
+        2023 - Now <br>
+        Women in Computer Science Program Mentor  <br>
+        University of Manitoba Winnipeg <br>
+        • Meet with a mentee on a monthly basis to answer questions and share experiences <br>
+        Dec. 2019 - Mar. 2020 <br>
+        Club Member <br>
+        J.H Bruns Collegiate <br>
+        • Crocheted and hand-knitted scarves for people experiencing homelessness <br>
+        • Assisted new members, ensuring that the scarves were an appropriate size <br>
+        <br>
+        Volunteer Aug. 2019 - Mar. 2020 <br>
+        River Park Gardens Personal Care Home Winnipeg, MB <br>
+        • Collaborated with the activity coordinator to prepare engaging activities for residents <br>
+        • Assisted with residents’ transportation within personal care home as well as on outings <br>
+      </h3>
+    </div>
+  </div>
 </body>
 </html>
