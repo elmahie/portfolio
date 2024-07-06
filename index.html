@@ -13,80 +13,83 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="header">
-    <h1 class="playfair-display-text">Eman Elmahi</h1>
+  <!-- Fixed Header -->
+  <div class="fixed-header">
+    <h3>
+      <a href="#top">Home &ensp;</a>
+      <a href="#about-me">About Me &ensp;</a> 
+      <a href="#projects">Projects &ensp;</a> 
+      <a href="#work-experience">Work Experience &ensp;</a>
+      <a href="#education">Education &ensp;</a>
+    </h3>
+  </div>
+
+  <!-- Home Section -->
+  <div id="home" class="header">
+    <h1 class="playfair-display-text"></h1>
     <div class="contact-info">
-      <h3 class="playfair-display-text"><i class="fa fa-phone" style="font-size:20px;color:#716050"></i> (431) 335-8571</h3>
-      <h3 class="playfair-display-text"><i class="fa fa-envelope" style="font-size:15px;color:#716050"></i>eman.elmahi@hotmail.com</h3>
-      <h3 class="playfair-display-text"><i class="fa fa-github" style="font-size:25px;color:#716050"></i><a href="https://github.com/elmahie"> https://github.com/elmahie</a></h3>
-   </div>
-  </div>
-  <p class="space"></p>
-  <div class="content-container">
-    <p class="space"></p>
-    
-    <p class="space"></p>
-    <h2 class="playfair-display-text">About Me</h2>
-    <p>
-     Hi! I am currently a fourth-year Computer Science Co-Op Student at the University of Manitoba. Here are some technologies I have been working with: <br>
-     <div class="row">
-      <div class="column">
-    <h3> ✦ Java <br>✦ Python</h3>
-  </div>
-      <div class="column">
-      <h3>✦ JavaScript <br> ✦ HTML <br> ✦ CSS</h3> 
+       <h3 class="playfair-display-text"><i class="fa fa-envelope" style="font-size:15px;color:#716050"></i>eman.elmahi@hotmail.com</h3>
+      <h3 class="playfair-display-text"><i class="fa fa-github" style="font-size:25px;color:#716050"></i><a href="https://github.com/elmahie">https://github.com/elmahie</a></h3>
     </div>
   </div>
-     Outside of work, I love all things creative including crochet and ceramic art.  </p>
-
-     <h2 class="playfair-display-text">Projects</h2>
-     <div>
+  
+  <div class="content-container">
+    <p class="space"></p>
+    <p class="space"></p>
+    
+    <!-- About Me Section -->
+    <h2 id="about-me">About Me</h2>
+    <p>
+      Hi! I am currently a fourth-year Computer Science Student at the University of Manitoba. I enjoy front-end design and exploring new technologies. Here are some technologies I have been working with: <br>
+      <div class="row">
+        <div class="column">
+          <h3>✦ Java <br>✦ Python</h3>
+        </div>
+        <div class="column">
+          <h3>✦ JavaScript <br> ✦ HTML <br> ✦ CSS</h3> 
+        </div>
+      </div>
+      Outside of work, I love all things creative including crochet and .
+    </p>
+    <p class="space"></p>
+    <p class="space"></p>
+    <!-- Projects Section -->
+    <h2 id="projects" class="playfair-display-text">Projects</h2>
+    <div>
       <!-- Slideshow container -->
-<div class="slideshow-container">
+      <div class="slideshow-container">
 
-  <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 3</div>
-    <img src="images/expenseweb.png" style="width:100%">
-    <div class="text"> <br><b>Expense Tracker</b><br> A web application for expense tracking <br> <b>HTML, CSS, JavaScript </b><br><a href ="https://github.com/elmahie/expense" class="fa fa-github" style="font-size:25px;"> </a><a href="https://elmahie.github.io/expense/" class="fa fa-external-link" style="font-size:20px;"> </a></div>
-  </div>
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 3</div>
-    <img src="images/expenseweb.png" style="width:100%">
-    <div class="text">Caption Text</div>
-  </div>
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 3</div>
-    <img src="images/expenseweb.png" style="width:100%">
-    <div class="text">Caption Text</div>
-  </div>
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <div class="numbertext">1/1</div>
+          <img src="images/expenseweb.png" style="width:100%">
+          <div class="text"><br><b>Expense Tracker</b><br> A web application for expense tracking <br> <b>HTML, CSS, JavaScript </b><br><a href ="https://github.com/elmahie/expense" class="fa fa-github" style="font-size:25px;"> </a><a href="https://elmahie.github.io/expense/" class="fa fa-external-link" style="font-size:20px;"> </a></div>
+        </div>
 
-  <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1);playAudio('button.mp4')" >&#10094;</a>
-  <a class="next" onclick="plusSlides(1);playAudio('button.mp4')">&#10095;</a>
-</div>
-<br>
-
-<!-- The dots/circles -->
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-</div>
-     </div>
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1);playAudio('button.mp4')">&#10094;</a>
+        <a class="next" onclick="plusSlides(1);playAudio('button.mp4')">&#10095;</a>
+      </div>
+      <br>
 
     <p class="space"></p>
-    <h2 class="playfair-display-text">Work Experience</h2>
+    <p class="space"></p>
+    <!-- Work Experience Section -->
+    <h2 id="work-experience" class="playfair-display-text">Work Experience</h2>
     <div class="work-experience">
       <h3 class="playfair-display-text"></h3>
       <ul>
         <li class="playfair-display-text">  &emsp;July. 2024 – August. 2024</li>
         &emsp; Coding Camp Counselor <br>
         &emsp; Code Cobras <br>
-        </ul>
+      </ul>
       <ul>
         <li class="playfair-display-text">  &emsp;Sept. 2022 – June. 2024</li>
         &emsp; Cashier <br>
@@ -95,42 +98,29 @@
         &emsp;&emsp;Maintain order of displays and accurately enter orders into the POS system  <br>
         &emsp;&emsp;Train new cashiers by providing them with the requisite preparation and teaching  <br>
       </ul>
-
     </div>
+
     <p class="space"></p>
-    <h2 class="playfair-display-text">Education</h2>
+    <p class="space"></p>
+    <!-- Education Section -->
+    <h2 id="education" class="playfair-display-text">Education</h2>
     <div class="education">
       <ul>
         <li class="playfair-display-text">  &emsp;Sept. 2021 – Now</li>
         &emsp;University of Manitoba Winnipeg, MB <br>
         &emsp; B.Sc in Computer Science  <br><br>
         <li class="playfair-display-text">  &emsp;Sept. 2017 - June. 2021 </li>
-       &emsp; J.H Bruns Collegiate Winnipeg, MB <br>
-       &emsp; Honour Roll with Distinction in Grades 9 - 11 <br>
-        &emsp;  Hogg Centennial Entrance Scholarship<br> 
+        &emsp; J.H Bruns Collegiate Winnipeg, MB <br>
+        &emsp; Honour Roll with Distinction in Grades 9 - 11 <br>
+        &emsp; Hogg Centennial Entrance Scholarship<br> 
       </ul>
-    </div>
-
-    <p class="space"></p>
-    <h2 class="playfair-display-text">Community Involvement</h2>
-    <div class="community-involvement">
-      <h3 class="playfair-display-text">
-        2023 - Now <br>
-        Women in Computer Science Program Mentor  <br>
-        University of Manitoba Winnipeg <br>
-        • Meet with a mentee on a monthly basis to answer questions and share experiences <br>
-        Dec. 2019 - Mar. 2020 <br>
-        Club Member <br>
-        J.H Bruns Collegiate <br>
-        • Crocheted and hand-knitted scarves for people experiencing homelessness <br>
-        • Assisted new members, ensuring that the scarves were an appropriate size <br>
-        <br>
-        Volunteer Aug. 2019 - Mar. 2020 <br>
-        River Park Gardens Personal Care Home Winnipeg, MB <br>
-        • Collaborated with the activity coordinator to prepare engaging activities for residents <br>
-        • Assisted with residents’ transportation within personal care home as well as on outings <br>
-      </h3>
     </div>
   </div>
 </body>
-</html>
+<p class="space"></p>
+<footer>
+    <p style="text-align: center"><b> Built and designed by Eman Elmahi</b></p>
+    <p style="text-align: center"> <b>All rights reserved  </b> <i class="fa fa-copyright" ></i> </p>
+  </footer>
+  </html>
+  
