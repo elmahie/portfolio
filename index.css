@@ -82,13 +82,13 @@ p {
 }
 
 ul {
-  list-style-type: "✦";
+  list-style-type: "";
   font-size: 18px;
   text-align: left;
 }
 
 .space {
-  margin-bottom: 2cm;
+  margin-bottom: 1cm;
 }
 
 .mini-space {
