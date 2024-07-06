@@ -232,9 +232,9 @@ a { color:#716050;
 text-decoration: none; } /* Globally */
 
 /* Each state */
-a:hover { text-decoration: none; color:#9CAF88; }
-a:focus { text-decoration: none; color:#9CAF88; }
-a:hover, a:active { text-decoration: none; color:#9CAF88 }
+a:hover { text-decoration: none; color:#698150; }
+a:focus { text-decoration: none; color:#698150; }
+a:hover, a:active { text-decoration: none; color:#698150 }
 .row {
   display: flex;
 }
