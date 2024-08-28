@@ -13,21 +13,35 @@ body {
   margin-top: 1vh;
   margin-left: 12vw;
   margin-right: 12vw;
-  padding-top: 40px; /* Adjust this value based on the header height */
+  padding-top: 40px;
 }
 
 .fixed-header {
-  position: fixed;
-  top: 0;
+  
+  font-weight: bold;
+  font-size: 18px;
   width: 100%;
   z-index: 1000;
   background-color: #F3EEEA;
 }
 
-.header {
+.header-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.nav-links a {
+  margin-right: 5px; 
+}
+
+.github-link {
+  margin-left: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
 }
 
 .contact-info {
@@ -162,7 +176,8 @@ body:active *:hover {
   top: 50%;
   width: auto;
   margin-top: -22px;
-  padding: 16px;
+  margin-left:20px;
+  margin-right:20px;
   color: rgb(0, 0, 0);
   font-weight: bold;
   font-size: 18px;
@@ -173,7 +188,7 @@ body:active *:hover {
 
 .next {
   right: 0;
-  border-radius: 3px 0 0 3px;
+  border-radius: 3px 3px 0 3px;
 }
 
 /* Caption text */
