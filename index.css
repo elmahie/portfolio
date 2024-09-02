@@ -4,7 +4,6 @@ html, body {
   padding: 0;
   background-color: #F3EEEA;
   color: #716050;
-  cursor: url("images/cursor.png"), auto;
   scroll-behavior: smooth;
   font-weight: 500;
 }
@@ -132,13 +131,6 @@ ul {
   background: #716050;
 }
 
-body *:hover {
-  cursor: url("images/cursor.png"), auto;
-}
-
-body:active *:hover {
-  cursor: url("images/cursor.png"), auto;
-}
 
 * {
   box-sizing: border-box;
