@@ -25,6 +25,12 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
-function playAudio(url) {
-    new Audio(url).play();
-  }
+
+  function showDetails(id) {
+    const details = document.querySelectorAll('.details');
+    details.forEach(detail => {
+        detail.style.display = 'none';
+    });
+
+    document.getElementById(id).style.display = 'block';
+}
