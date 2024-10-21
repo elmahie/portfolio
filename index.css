@@ -12,12 +12,12 @@ body {
   margin-top: 1vh;
   margin-left: 12vw;
   margin-right: 12vw;
-  padding-top: 40px;
+  padding-top: 2.083vw;
 }
 
 .fixed-header {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1.25vw;
   width: 100%;
   z-index: 1000;
   background-color: #F3EEEA;
@@ -30,7 +30,7 @@ body {
 }
 
 .nav-links a {
-  margin-right: 5px; 
+  margin-right: 0.26vw; 
 }
 
 .github-link {
@@ -52,57 +52,57 @@ body {
 .contact-info h3 {
   display: flex;
   align-items: center;
-  margin: 5px 0;
+  margin: 0.26vw 0;
   font-family: "Varela Round", sans-serif;
 }
 
 h1 {
-  font-size: 8vh;
+  font-size: 4vw;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 1.563vw;
   text-align: center;
-  scroll-margin-top: 70px;
+  scroll-margin-top: 3.646vw;
   font-weight: bolder;
 }
 
 h3 {
-  font-size: 15px;
+  font-size: 1.2vw;
 }
 
 p {
   text-align: left;
-  font-size: 18px;
+  font-size: 1.5vw;
 }
 
 .fa {
-  margin-right: 10px;
+  margin-right: 0.521vw;
   font-family: "Varela Round", sans-serif;
 }
 
 .content-container {
-  margin-top: 50px;
+  margin-top: 2.604vw;
 }
 
 .sparkle {
-  height: 300px;
-  width: 220px;
+  height: 15.625vw;
+  width: 11.458vw;
   background: radial-gradient(#0000 71%, #716050 72%) 10000% 10000% / 99.5% 99.5%;
 }
 
 ul {
   list-style-type: "";
-  font-size: 18px;
+  font-size: 1.5vw;
   text-align: left;
 }
 
 .space {
-  margin-bottom: 1cm;
+  margin-bottom: 1vh;
 }
 
 .mini-space {
-  margin-bottom: 2px;
+  margin-bottom: 0.104vw;
 }
 
 .work-experience, .education, .community-involvement {
@@ -116,7 +116,7 @@ ul {
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 0.521vw;
 }
 
 ::-webkit-scrollbar-track {
@@ -134,18 +134,18 @@ ul {
 
 * {
   box-sizing: border-box;
-  border-radius: 5px;
+  border-radius: 0.26vw;
 }
 
 .slideshow-container {
-  max-width: 750px;
-  height: 475px; 
+  max-width: 39.063vw;
+  height: 24.74vw; 
   position: relative;
   margin: auto;
-  border: 10px solid #716050;
-  padding-bottom: 60px;
-  border-radius: 25px;
-  box-shadow: 5px 10px; 
+  border: 0.521vw solid #716050;
+  padding-bottom: 3.125vw;
+  border-radius: 1.302vw;
+  box-shadow: 0.26vw 0.521vw; 
   background-color: white;
   overflow: hidden;
 }
@@ -168,28 +168,28 @@ ul {
   position: absolute;
   top: 50%;
   width: auto;
-  margin-top: -22px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-top: -1.146vw;
+  margin-left: 1.25vw;
+  margin-right: 1.25vw;
   color: rgb(0, 0, 0);
   font-weight: bolder;
-  font-size: 20px;
+  font-size: 1.25vw;
   transition: 0.6s ease;
-  border-radius: 3px 3px 3px 0;
+  border-radius:0.417vw 0.417vw 0.417vw 0;
   user-select: none;
 }
 
 .next {
   right: 0;
-  border-radius: 8px 8px 0 8px;
+  border-radius: 0.417vw 0.417vw 0 0.417vw;
 }
 
 .text {
   color: #716050;
-  font-size: 13px;
-  padding: 8px 12px;
+  font-size: 0.677vw;
+  padding: 0.417vw 0.625vw;
   position: absolute;
-  bottom: 8px;
+  bottom: 0.417vw;
   width: 100%;
   text-align: center;
   font-family: "Varela Round", sans-serif;
@@ -198,8 +198,8 @@ ul {
 
 .numbertext {
   color: #1c1b1b;
-  font-size: 15px;
-  padding: 8px 12px;
+  font-size: 0.781vw;
+  padding: 0.417vw 0.625vw;
   position: absolute;
   font-weight: bold;
   top: 0;
@@ -251,9 +251,9 @@ a:hover, a:active {
 
 .dot {
   cursor: pointer;
-  height: 5px;
-  width: 15px;
-  margin: 2px 2px;
+  height: 0.26vw;
+  width: 0.781vw;
+  margin: 0.104vw 0.104vw;
   background-color: #bbb;
   display: inline-block;
   transition: background-color 0.6s ease;
@@ -266,36 +266,36 @@ a:hover, a:active {
 .experience-container {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 1.25vw;
   justify-content: space-between;
 }
 
 .experience-card {
   background-color: #F3EEEA;
-  border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-  padding: 20px;
+  border-radius: 0.781vw;
+  box-shadow: 0 0.208vw 0.417vw rgba(0, 0, 0, 0.3);
+  padding: 1.25vw;
   width: 100%;
   transition: transform 0.3s ease;
 }
 
 .experience-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-0.26vw);
 }
 
 .experience-card h3:first-of-type {
-  font-size: 20px;
+  font-size: 1.25vw;
   font-weight: bold;
 }
 
 .experience-card h3 + p,
 .experience-card h4 {
-  font-size: 18px;
+  font-size: 1.25vw;
   font-weight: normal;
 }
 
 .experience-card p:last-of-type {
-  font-size: 14px;
+  font-size: 0.729vw;
   color: #716050;
 }
 
@@ -310,23 +310,23 @@ a:hover, a:active {
 }
 
 .experience-card h3 {
-  margin-bottom: 5px;
+  margin-bottom: 0.26vw;
 }
 
 .experience-card h4 {
-  margin-bottom: 5px;
+  margin-bottom: 0.26vw;
 }
 
 .experience-card p:last-of-type {
-  margin-bottom: 10px;
+  margin-bottom: 0.521vw;
 }
 
 .experience-card ul {
-  margin-top: 10px;
+  margin-top: 0.521vw;
 }
 
 .experience-card li {
-  margin-bottom: 5px;
+  margin-bottom: 0.26vw;
 }
 
 .experience-card ul {
@@ -335,7 +335,7 @@ a:hover, a:active {
 }
 
 .experience-card li {
-  margin-bottom: 10px;
-  font-size: 16px;
+  margin-bottom: 0.521vw;
+  font-size: 1.3vw;
   color: #716050;
 }
